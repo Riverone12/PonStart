@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reverone.kawahara.ponstart.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!-- Control Panel -->
+    <FrameLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/content_main_song_controller" />
+
+    </FrameLayout>
+
+    <!-- Buttons -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerStrip"
+            android:background="#666"
+            android:textColor="#ccc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

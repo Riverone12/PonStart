@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="preference_is_loop_mode"
+        android:title="@string/pref_is_loop_mode_title"
+        android:defaultValue="false"
+        android:summary="@string/pref_is_loop_mode_summary"/>
+
+    <CheckBoxPreference
+        android:key="preference_is_quick_start_mode"
+        android:title="@string/pref_is_quick_mode_title"
+        android:defaultValue="false"
+        android:summary="@string/pref_is_quick_mode_summary"/>
+
+    <ListPreference
+        android:key="preference_fadeout_sec"
+        android:title="@string/pref_fadeout_sec_title"
+        android:dialogTitle="@string/pref_fadeout_sec_title"
+        android:entries="@array/pref_fadeout_sec_keys"
+        android:entryValues="@array/pref_fadeout_sec_values"/>
+
+    <ListPreference
+        android:key="preference_sound_effect_pages"
+        android:title="@string/pref_sound_effect_pages_title"
+        android:dialogTitle="@string/pref_sound_effect_pages_dialog_title"
+        android:entries="@array/pref_pages_item_keys"
+        android:entryValues="@array/pref_pages_item_values"/>
+
+    <ListPreference
+        android:key="preference_song_pages"
+        android:title="@string/pref_song_pages_title"
+        android:dialogTitle="@string/pref_song_pages_dialog_title"
+        android:entries="@array/pref_pages_item_keys"
+        android:entryValues="@array/pref_pages_item_values"/>
+
+    <ListPreference
+        android:key="preference_orientation"
+        android:title="@string/pref_orientation_title"
+        android:dialogTitle="@string/pref_orientation_title"
+        android:entries="@array/pref_orientation_keys"
+        android:entryValues="@array/pref_orientation_values"/>
+
+</PreferenceScreen>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:hint="@string/button_setting_label_title_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonFile"
+        android:hint="@string/button_setting_button_file_hint"
+        android:gravity="start|center_vertical"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewSelectDemoData"
+        android:text="@string/select_demo_data_text"
+        android:clickable="true"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewSoundEffectAlert"
+        android:paddingTop="6dp"
+        android:paddingBottom="12dp"
+        android:text="@string/button_setting_se_info"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/volume_slider_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/volume_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    -->
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonDelete"
+            android:text="@string/button_setting_button_delete"
+            android:drawableStart="@drawable/ic_action_discard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_discard" />
+        <Button
+            android:id="@+id/buttonAudition"
+            android:text="@string/button_setting_button_audition"
+            android:visibility="gone"
+            android:drawableStart="@drawable/ic_action_headphones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_headphones" />
+    </LinearLayout>
+
+ </LinearLayout>

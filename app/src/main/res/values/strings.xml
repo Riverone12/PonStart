@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Pon Sampler Pro</string>
+
+    <!-- ad -->
+    <string name="banner_ad_unit_id">ca-app-pub-1882812461462801/9060082170</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Preferences</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_menu_header_info">Please select the page</string>
+    <string name="navigation_menu_sound_effect_group_title">Sound Effects</string>
+    <string name="navigation_menu_song_group_title">Songs</string>
+
+    <string name="navigation_menu_se_page_1">Sound Effects 1</string>
+    <string name="navigation_menu_se_page_2">Sound Effects  2</string>
+    <string name="navigation_menu_se_page_3">Sound Effects  3</string>
+    <string name="navigation_menu_se_page_4">Sound Effects  4</string>
+
+    <string name="navigation_menu_song_page_1">Songs 1</string>
+    <string name="navigation_menu_song_page_2">Songs 2</string>
+    <string name="navigation_menu_song_page_3">Songs 3</string>
+    <string name="navigation_menu_song_page_4">Songs 4</string>
+
+
+    <!-- DisplayFragment -->
+    <string name="display_title_no_data">No Data</string>
+    <string name="display_title_loading">Loading..</string>
+    <string name="display_title_no_title">No Title</string>
+    <string name="display_time_default_string">--:--</string>
+    <string name="display_remain_prefix">- </string>
+
+    <!-- ControllerFragment -->
+    <string name="controller_play_mode_quick">Quick Start Mode</string>
+    <string name="controller_play_mode_standby">Stand By Mode</string>
+    <string name="controller_button_play">PLAY</string>
+    <string name="controller_button_stop">STOP</string>
+    <string name="controller_button_pause">PAUSE</string>
+    <string name="controller_button_previous">PREV</string>
+
+    <string name="controller_display_mode_repeat">Repeat</string>
+    <string name="controller_display_mode_quick">Quick Start</string>
+
+    <!-- Buttons -->
+    <string name="buttons_se_page_pre_string">SoundEffect </string>
+    <string name="buttons_song_page_pre_string">Song </string>
+    <string name="buttons_title_default_string">No Titled</string>
+    <string name="buttons_loading_caption">( LOADING.. )</string>
+
+    <!-- Button Setting Dialog -->
+    <string name="button_setting_se_title">Sound effect button setting</string>
+    <string name="button_setting_song_title">Song button setting</string>
+    <string name="button_setting_button_file_hint">Please select a file</string>
+    <string name="button_setting_label_title_hint">Display name of the button</string>
+    <string name="select_demo_data_text">Select from demo data</string>
+    <string name="volume_slider_title">Volume</string>
+    <string name="button_setting_se_info">Sound effect playback can be up to 10 seconds in length.</string>
+    <string name="button_setting_button_audition">Audition</string>
+    <string name="button_setting_button_audition_stop">STOP</string>
+    <string name="button_setting_button_delete">Clear</string>
+    <string name="button_setting_button_positive">OK</string>
+    <string name="button_setting_button_negative">Cancel</string>
+    <string name="delete_confirm_message">Discard registered contents of this button. Is it OK?</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <!-- Notification -->
+    <string name="notify_text_playing">Pon Sampler Pro Playing now</string>
+    <string name="notify_text_pausing">Pon Sampler Pro Paused</string>
+
+    <!-- Preference -->
+    <string name="pref_action_bar_title">Preferences of Pon Sampler</string>
+    <string name="pref_sound_effect_pages_title">Number of pages of Sound Effects</string>
+    <string name="pref_sound_effect_pages_dialog_title">Number of pages of Sound Effects</string>
+
+    <string name="pref_fadeout_sec_title">Fadeout time when tap STOP</string>
+
+    <string name="pref_song_pages_title">Number of pages of Songs</string>
+    <string name="pref_song_pages_dialog_title">Number of pages of Songs</string>
+
+    <string name="pref_is_loop_mode_title">Repeat playback</string>
+    <string name="pref_is_loop_mode_summary">Play the song repeatedly.</string>
+
+    <string name="pref_is_quick_mode_title">Quick Start</string>
+    <string name="pref_is_quick_mode_summary">Tap the song button to start playing immediately.</string>
+
+    <string name="pref_button_setting_info">The setting of the button can be done by long tapping each button.</string>
+
+    <string name="pref_orientation_title">Orientation of screen</string>
+
+    <string name="caption_setting_permissions">Setting permissions</string>
+
+    <!-- Progress Dialog -->
+    <string name="loading_progress_message">Loading sound effect data. Please wait.</string>
+
+</resources>

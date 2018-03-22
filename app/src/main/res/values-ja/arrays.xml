@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_pages_item_keys">
+        <item>1ページ</item>
+        <item>2ページ</item>
+        <item>3ページ</item>
+        <item>4ページ</item>
+    </string-array>
+    <string-array name="pref_pages_item_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_orientation_keys">
+        <item>ポートレート（縦長）</item>
+        <item>ランドスケープ（横長）</item>
+    </string-array>
+    <string-array name="pref_orientation_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_fadeout_sec_keys">
+        <item>0 (Cut Out)</item>
+        <item>0.5 sec</item>
+        <item>1 sec</item>
+        <item>1.5 sec</item>
+        <item>2 sec</item>
+        <item>3 sec</item>
+        <item>4 sec</item>
+        <item>5 sec</item>
+    </string-array>
+    <string-array name="pref_fadeout_sec_values">
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_sound_effect_menu">
+
+            <item
+                android:id="@+id/nav_sound_effect_page1"
+                android:title="@string/navigation_menu_se_page_1" />
+            <item
+                android:id="@+id/nav_sound_effect_page2"
+                android:title="@string/navigation_menu_se_page_2" />
+            <item
+                android:id="@+id/nav_sound_effect_page3"
+                android:title="@string/navigation_menu_se_page_3" />
+            <item
+                android:id="@+id/nav_sound_effect_page4"
+                android:title="@string/navigation_menu_se_page_4" />
+
+    </group>
+
+    <group
+        android:id="@+id/nav_song_menu">
+            <item
+                android:id="@+id/nav_song_page1"
+                android:title="@string/navigation_menu_song_page_1" />
+            <item
+                android:id="@+id/nav_song_page2"
+                android:title="@string/navigation_menu_song_page_2" />
+            <item
+                android:id="@+id/nav_song_page3"
+                android:title="@string/navigation_menu_song_page_3" />
+            <item
+                android:id="@+id/nav_song_page4"
+                android:title="@string/navigation_menu_song_page_4" />
+    </group>
+
+    <group
+        android:id="@+id/nav_menu_dummy">
+        <item
+            android:title=""
+            android:enabled="false"/>
+    </group>
+</menu>

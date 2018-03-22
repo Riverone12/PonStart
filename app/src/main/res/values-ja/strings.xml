@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">効果音ぽんダシ</string>
+
+    <!-- ad -->
+    <string name="banner_ad_unit_id">ca-app-pub-1882812461462801/9060082170</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_menu_header_info">表示するページを選んでください</string>
+    <string name="navigation_menu_sound_effect_group_title">効果音</string>
+    <string name="navigation_menu_song_group_title">曲</string>
+
+    <string name="navigation_menu_se_page_1">効果音 1</string>
+    <string name="navigation_menu_se_page_2">効果音 2</string>
+    <string name="navigation_menu_se_page_3">効果音 3</string>
+    <string name="navigation_menu_se_page_4">効果音 4</string>
+
+    <string name="navigation_menu_song_page_1">曲 1</string>
+    <string name="navigation_menu_song_page_2">曲 2</string>
+    <string name="navigation_menu_song_page_3">曲 3</string>
+    <string name="navigation_menu_song_page_4">曲 4</string>
+
+
+    <!-- DisplayFragment -->
+    <string name="display_title_no_data">No Data</string>
+    <string name="display_title_loading">Loading &#8230;</string>
+    <string name="display_title_no_title">No Title</string>
+    <string name="display_time_default_string">--:--</string>
+    <string name="display_remain_prefix">- </string>
+
+    <!-- ControllerFragment -->
+    <string name="controller_play_mode_quick">Quick Start Mode</string>
+    <string name="controller_play_mode_standby">Stand By Mode</string>
+    <string name="controller_button_play">PLAY</string>
+    <string name="controller_button_stop">STOP</string>
+    <string name="controller_button_pause">PAUSE</string>
+    <string name="controller_button_previous">PREV</string>
+
+    <string name="controller_display_mode_repeat">リピート再生</string>
+    <string name="controller_display_mode_quick">クイック再生</string>
+
+    <!-- Buttons -->
+    <string name="buttons_se_page_pre_string">効果音 </string>
+    <string name="buttons_song_page_pre_string">曲 </string>
+    <string name="buttons_title_default_string">No Titled</string>
+    <string name="buttons_loading_caption">( LOADING&#8230; )</string>
+
+    <!-- Button Setting Dialog -->
+    <string name="button_setting_se_title">効果音ボタンの設定</string>
+    <string name="button_setting_song_title">曲ボタンの設定</string>
+    <string name="button_setting_button_file_hint">ファイルを選択してください&#8230;</string>
+    <string name="button_setting_label_title_hint">ボタンに表示する文字列</string>
+    <string name="select_demo_data_text">デモ用の素材から選ぶ</string>
+    <string name="volume_slider_title">音量</string>
+    <string name="button_setting_se_info">効果音の再生は最長で10秒ほどです。</string>
+    <string name="button_setting_button_audition">視聴</string>
+    <string name="button_setting_button_audition_stop">STOP</string>
+    <string name="button_setting_button_delete">クリア</string>
+    <string name="button_setting_button_positive">登録</string>
+    <string name="button_setting_button_negative">キャンセル</string>
+    <string name="delete_confirm_message">このボタンの登録内容を破棄します。よろしいですか？</string>
+    <string name="dialog_button_yes">はい</string>
+    <string name="dialog_button_no">いいえ</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+
+    <!-- Notification -->
+    <string name="notify_text_playing">効果音ぽんダシ 再生中です&#8230;</string>
+    <string name="notify_text_pausing">効果音ぽんダシ 一時停止中です</string>
+
+    <!-- Preference -->
+    <string name="pref_action_bar_title">効果音ぽんダシの設定</string>
+    <string name="pref_sound_effect_pages_title">効果音のページ数</string>
+    <string name="pref_sound_effect_pages_dialog_title">効果音のページ数</string>
+
+    <string name="pref_fadeout_sec_title">STOP時のフェードアウト時間</string>
+
+    <string name="pref_song_pages_title">曲のページ数</string>
+    <string name="pref_song_pages_dialog_title">曲のページ数</string>
+
+    <string name="pref_is_loop_mode_title">リピート再生</string>
+    <string name="pref_is_loop_mode_summary">曲を繰り返し再生します。</string>
+
+    <string name="pref_is_quick_mode_title">クイック再生</string>
+    <string name="pref_is_quick_mode_summary">曲ボタンをタップですぐに再生を開始します。</string>
+
+    <string name="pref_button_setting_info">ボタンの設定は、各ボタンを長押し（ロングタップ）することで行うことができます</string>
+
+    <string name="pref_orientation_title">画面の向き</string>
+
+    <string name="caption_setting_permissions">権限の設定\n(ストレージの権限を許可してください)</string>
+
+    <!-- Progress Dialog -->
+    <string name="loading_progress_message">効果音のデータを読み込んでいます。しばらくお待ちください&#8230;</string>
+
+</resources>
